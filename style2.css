@@ -1,0 +1,21 @@
+
+* {
+    color: #fff;
+    box-sizing: border-box; 
+
+    
+}
+
+header,main, section, article, h1, p { 
+    border: 2px solid khaki;
+    margin: 10px;
+    padding: 10px;}
+
+header {background-color: #a1a0a0;}
+header > h1 {background-color: #5c5959;}
+main {background-color: #a1a0a0;}
+main > h1 {background-color: #5c5959;}
+section {background-color: #5c5959;}
+article {background-color: #353535;}
+article > h1 {background-color: #212121;}
+article > p {background-color: #212121;}

@@ -1,0 +1,28 @@
+#tap-circle {
+    border: 2px solid red;
+    position: relative;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+
+.click-animation {
+    animation: animation 0.3s forwards ease-in-out;
+}
+
+@keyframes animation {
+    0% {
+        opacity: 0;
+        transform: scale(0.1);
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(2.5);
+    }
+}
